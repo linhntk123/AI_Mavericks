@@ -45,34 +45,3 @@ Colab notebook
 ```
 
 Open `midterm_project.ipynb` and execute the cells sequentially.
-
-## Results Summary
-
-| Optimizer | Learning Rate | Training Accuracy | Test Accuracy |
-|-----------|----------------|-------------------|---------------|
-| Adam      | 0.001          | 91.86%            | 91.86%        |
-| RMSprop   | 0.001          | 91.68%            | 91.68%        |
-| AdamW     | 0.001          | 92.02%            | 92.02%        |
-
-### Best Result
-- **Best Test Accuracy:** 92.02%
-- **Best Optimizer:** AdamW
-- **Parameters:** `learning_rate = 0.001`
-
-## Visual Results
-
-### Training Loss Over Epochs
-![Training Loss Over Epochs (1)](https://github.com/hoz-efa/Advanced-Deep-Learning-AIGC-5500-0NA-Midterm-Project/assets/136026095/5236c2ed-20af-487b-8ddc-c677982ec69c)
-
-### Training Accuracy Over Epochs
-![Training Accuracy Over Epochs (1)](https://github.com/hoz-efa/Advanced-Deep-Learning-AIGC-5500-0NA-Midterm-Project/assets/136026095/34ee38d6-f5b0-42bb-8995-f18c4d6820af)
-
-
-## Group Member Contributions
-
-## References
-
-- [Adam Optimization Algorithm](https://arxiv.org/abs/1412.6980)
-- [RMSprop: Divide the gradient by a running average of its recent magnitude](https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf)
-- [AdamW and Super-Convergence is Now the Best Optimizer](https://arxiv.org/abs/1711.05101)
-- KMNIST Dataset: [GitHub Repository](https://github.com/rois-codh/kmnist)
